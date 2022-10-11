@@ -1,0 +1,53 @@
+/* body{
+
+}
+
+/* . - обращение к class */
+.size-up {
+    font-size: 50pt;
+}
+
+.rotate {
+    /* трансформация:поворот(45градусов) */
+    transform:rotate(45deg)
+}
+.grey-cube {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+/* # - обращение к id */
+#red {
+    color: red;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: blueviolet;
+    border-width: 7px;
+    width: 10%;
+
+
+}
+
+.custom-ul {
+    list-style-type: "😘";
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a :hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
