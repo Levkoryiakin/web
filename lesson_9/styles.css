@@ -1,0 +1,24 @@
+.cube {
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: blue;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.green {
+    background-color: red;
+    width: 500px;
+}
+
+img {
+    width: 8%;
+    float: left;
+}
+
+p {
+    width: 15%;
+}
