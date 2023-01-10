@@ -1,0 +1,114 @@
+@media (max-width: 1600px){
+    .header-content {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1300px){
+    .footer.nav a {
+        margin: 0 15px;
+    }
+    
+}
+
+/* Устройства Large */
+@media (max-width: 1200px){
+
+    .container {
+        width: 90%;
+    }
+
+    .header-top {
+        padding: 45px 0;
+    }
+
+    .header, h1 {
+        font-size: 65px;
+    }
+    
+}
+
+/* Устройства Medium (планшет) */
+@media (max-width: 992px){
+    .main-header {
+        margin-bottom: 50px;
+    }
+
+    .header-nav a {
+        padding: 0;
+    }
+
+    .header, h1 {
+        font-size: 55px;
+    }
+
+    .header-img {
+        right: 0;
+    }
+
+    .main-header-content im {
+        transform: translateY(0);
+        width: 40%;
+    }
+}
+
+/* GAMES PAGE */
+.games-header p {
+    max-width: 60%;
+}
+
+.game-box {
+    width: 65%;
+}
+
+.game-box>div {
+    width: 60%;
+}
+.game-box>img {
+    width: 60%;
+}
+
+.more-btn {
+    margin-top: 35px;
+}
+
+.project-card {
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.footer.nav {
+    margin: 20px 0;
+}
+
+
+
+
+
+
+/* Устройства Small */
+@media (max-width: 768px){
+
+    .header-nav {
+        display: none ;
+    }
+
+    .burger-menu {
+    display: flex;
+    }
+
+
+/* GAME PAGE */
+.game-box, .game-box:nth-child(even) {
+    flex-direction: column;
+}
+
+.game-box>div {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.project-card {
+    width: 100%;
+}
+}
