@@ -1,0 +1,137 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ /* Первый экран  */
+ .welcome {
+   background: linear-gradient(90.09deg, #FF715B 0.07%, #F0BE84 99.91%);
+   text-align: center;
+   padding:120px 0;
+   margin-bottom: 50px;
+ }
+
+ .welcome-img {
+   width: 157px;
+   border-radius: 50%;
+   border: 8px solid white;
+ }
+
+ h1 {
+   font-family: 'Pacifico', cursive;
+   font-size: 55px;
+   line-height: 61px;
+   color: #652E2E;
+   margin-bottom: 35px;
+ }
+
+ .welcome-text {
+   font-family: 'Pacifico', cursive;
+   font-size: 32px;
+   line-height: 38px;
+   color: #FFFFFF;
+ }
+
+ /* Новинки */
+ .new {
+   text-align: right;
+   margin-bottom: 50px;
+ }
+
+ .new-heading {
+   font-family: 'Pacifico', cursive;
+   font-size: 40px;
+   line-height: 46px;
+   text-align: center;
+   color: #FF715B;
+ }
+
+ .book-card {
+   display: inline-block;
+   width: 45%;
+   height: 276px;
+   border: 3px solid #F5B6AC;
+   border-radius: 22px;
+   padding: 40px 30px;
+   margin: 0 10px;
+ }
+
+ .book-cover {
+   width: 160px;
+   height: 210px;
+ }
+
+ .book-intro {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   line-height: 22px;
+   float: right;
+   width: 70%;
+
+ }
+
+ .book-link {
+   display: inline-block;
+   font-family: 'Pacifico', cursive;
+   font-size: 17px;
+   line-height: 25px;
+   color: #000000;
+   margin-top: 25px;
+ }
+
+ /* Номинации  */
+ .prize {
+   background: linear-gradient(90.09deg, #FF715B 0.07%, #F0BE84 99.91%);
+   padding: 50px 0;
+   text-align: center;
+   margin-bottom: 100px;
+ }
+
+ .prize-heading {
+   font-family: 'Pacifico', cursive;
+   font-size: 40px;
+   line-height: 47px;
+   color: #FFFFFF;
+   margin-bottom: 15px;
+ }
+
+ .prize-icons {
+   display: block;
+   font-size: 30px;
+ }
+
+ .list {
+   font-family: 'Pacifico', cursive;
+   width: 320px;
+   text-align: center;
+   margin: 30px 30px 0;
+   color: #523434;
+ }
+
+ h3 {
+   font-size: 40px;
+   line-height: 47px;
+   margin-bottom: 25px;
+ }
+
+ ol {
+   padding-left: 30px;
+   font-size: 24px;
+   line-height: 42px;
+ }
+
+ /* Последняя секция */
+ .last-section {
+   width: 70%;
+   margin: auto;
+ }
+
+ .reader-img {
+   border-radius: 50%;
+ }
+
+ .last-words {
+   font-size: 25px;
+   line-height: 39px;
+ }
