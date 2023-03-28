@@ -29,6 +29,7 @@ console.log("score=", score_el)
 let record_el = document.querySelector(".record") // сохранили рекорд
 console.log(record_el)
 score_el.innerHTML = life;  //запись счета в html
+let quest_el = document.querySelector(".question")
  
 function game_over(){
   if (life <=0) {
@@ -40,7 +41,7 @@ function qwer() {
   let user = inp_el.value // фиксируем value input'a
  
   if (user == computer) {
-      q.innerHTML = user;
+    quest_el.innerHTML = user;
       inp_el.value = "Угадал";
       alert("Чемпион")
       if (record_el.innerHTML == "-") {

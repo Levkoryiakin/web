@@ -48,6 +48,15 @@ border-radius: 50%;
     left: 289px;
 }
 
+.question {
+    font-family:'Russo One', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 .ugadai {
     position: absolute;
