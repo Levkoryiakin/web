@@ -8,8 +8,16 @@ const closeModal = () => {
 }
 
 modalBtns.forEach((btn) =>{
-    btn.addEventListener("click, function()")
+    btn.addEventListener("click", function(){
     modal.classList.remove("hidden");
+    })
 })
 
 close.addEventListener("click", closeModal);
+
+
+document.addEventListener("keydown", function(e){
+    if (!modal.classList.contains("hidden") && e.key == "Escape") {
+        closeModal()
+    }
+}) 
