@@ -1,0 +1,58 @@
+body {
+    background-color: lightgreen;
+}
+
+.gallery {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* по побочной (горизонт)*/
+    align-items: center; /*по побочной (вертикаль) */
+
+}
+
+.gallery_slide:nth-child(1) {
+    background: url(img/img/site-1.png) center/cover no-repeat;
+}
+
+.gallery_slide:nth-child(2) {
+    background: url(img/img/site-2.png) center/cover no-repeat;
+}
+.gallery_slide:nth-child(3) {
+    background: url(img/img/site-3.png) center/cover no-repeat;
+}
+.gallery_slide:nth-child(4) {
+    background: url(img/img/site-4.png) center/cover no-repeat;
+}
+.gallery_slide:nth-child(5) {
+    background: url(img/img/site-5.png) center/cover no-repeat;
+}
+.gallery_slide:nth-child(6) {
+    background: url(img/img/site-6.png) center/cover no-repeat;
+}
+
+.gallery_slide {
+    height: 80vh;
+    margin: 0 5px;
+    border-radius: 20px;
+    flex: 1;
+    position: relative;
+    transition: all 500ms ease-in-out   ;
+}
+
+.gallery_slide a {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    opacity: 0;
+}
+
+.gallery_slide.active {
+    flex: 10;
+}
+
+
+.gallery_slide.active a{
+    opacity: 1;
+}
