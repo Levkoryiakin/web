@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.head {
+    width: 100%;
+    height: 3vw;
+    background-color: #f7ebe5;
+}
+
+.another-head {
+    width: 100%;
+    height: 10vw;
+    background-color: #f8eeee;
+}   
+
+
+.main-link {
+   color: black;
+   text-decoration: none; 
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   padding: 55px 0 0 640px;
+
+}
+
+.wata {
+    margin: 50px 0 0 500px;
+    
+}
+
+.man {
+    margin: 50px 500px 0 0;
+}
+
+
+.marshmallow {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 50px 0 0 100px;
+}
+
+
+.main-text {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+
+    
+}
+
+.main-text {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+    
+}
+
+h2 {
+    position: absolute;
+    top: 420px;
+    left: 600px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.section {
+    width: 100%;
+    height: 500px;
+
+}
+
+.btn {
+    /* width: 350px; */
+    height: 170px;
+    transition: all 0,3 ease;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.btn:hover {
+box-shadow: 0 1vh 2vh rgba(34, 60, 80, 0.21);
+}
+
+
+.btn:nth-child(1) {
+    border: none;
+    background-image: linear-gradient(45deg,rgb(255, 157, 0),yellow);
+}
+
+.btn:nth-child(2) {
+    border: none;
+    background-image: linear-gradient(45deg,rgb(255, 0, 217),rgb(195, 0, 255));
+}
+
+.btn:nth-child(3) {
+    border: none;
+    background-image: linear-gradient(45deg,rgb(68, 0, 255),rgb(0, 255, 247));
+}
+
+.btn:nth-child(4) {
+    border: none;
+    background-image: linear-gradient(45deg,rgb(255, 72, 0),rgb(149, 255, 0));
+}
+
+.btn:nth-child(5) {
+    border: none;
+    background-image: linear-gradient(45deg,rgb(0, 255, 47),rgb(0, 255, 174));
+}
+
+.btn:nth-child(6) {
+    border: none;
+    background-image: linear-gradient(45deg,rgb(0, 255, 60),rgb(195, 0, 255));
+}
+
+.nineb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 15px;
+    margin: 0 300px;
+}
+
+.stocks {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 70px 0 40px 0;
+
+}
+
+.actions {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 270px;
+    height: 265px;
+    background-color: rgb(232, 12, 12);
+    margin: 0 0 100px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+}
+
+.actions:hover {
+    box-shadow: 0 1vh 2vh rgba(34, 60, 80, 0.21);
+    cursor: pointer;
+}
+
+
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Подвал */
+.basement {
+    position: relative;
+    height: 260px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+
+.basement-link {
+    text-decoration: none;
+    color: rgb(101, 99, 99);
+
+}
+
+.basement-links {
+    position: relative;
+    padding: 0 0 0 700px;
+    margin-top: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.basement-fact {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.basement-text {
+    position: absolute;
+    top: 1px;
+    left: 2px;
+
+}
+.heart {
+    height: 30px;
+    width: 30px;
+}
+
+.delish {
+    padding-top: 10px;
+}
+
+/* Ассортимент */
+
+.cake {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    text-align: center; 
+}
+
+.icecream {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    text-align: center; 
+}
+
+.makaroni {
+    background-image: url(img/nabor-pirozhnyh-makaroni-assorti---12-sht--1.1579193711.jpg);
+    position: relative;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+
+
+
+.milk {
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    color: rgb(151, 151, 151);
+}
+
+.range {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.praga {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.napoleon {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.medovik {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.discs {
+    background-color: rgb(56, 125, 243);
+    width: 270px;
+    height: 265px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.discs:hover {
+    box-shadow: 0 1vh 2vh rgba(34, 60, 80, 0.21);
+    cursor: pointer;
+}
+
+.variety {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.milkyway {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 100px 0;
+}
+
+.basket {
+    margin: auto;
+    /* padding: 0 10px 0 10px; */
+    width: 80%;
+    height: 600px;
+    background-color: rgb(195, 227, 255);
+    border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.basket-header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(85, 238, 238);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.tovar {
+    margin: 5px 10px 0 10px;
+}
+
+.just-nothing {
+    width: 10px;
+    height: 300px;
+}
+/* Будем делать это все в один html */
+
+/* Настраивай в абсолюте подвал с помощью bottom */
